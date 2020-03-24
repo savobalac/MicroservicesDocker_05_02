@@ -22,6 +22,7 @@ import static springfox.documentation.builders.PathSelectors.any;
 @SpringBootApplication
 @EnableSwagger2
 public class ExplorecaliApplication {
+
     @Bean
     public Docket docket() {
         return new Docket(DocumentationType.SWAGGER_2).select()
